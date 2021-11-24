@@ -5,3 +5,15 @@
 .router-link-exact-active {
     font-weight: bold;
 }
+
+.bg-color {
+    background-color: white;
+}
+
+.exp-text-hero {
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 50px;
+}
