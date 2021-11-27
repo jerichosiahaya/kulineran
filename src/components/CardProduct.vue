@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="card shadow rounded">
+    <div class="card shadow" style="width: 18rem">
       <img
         :src="' ../assets/images/' + product.gambar"
         class="card-img-top"
@@ -8,10 +8,11 @@
       />
       <div class="card-body">
         <h5 class="card-title">{{ product.nama }}</h5>
+        <p class="card-text">Harga: {{ product.harga }}</p>
+        <a href="#" class="btn btn-success"
+          ><b-icon icon="cart3"></b-icon> Pesan</a
+        >
       </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Harga: {{ product.harga }}</li>
-      </ul>
     </div>
   </div>
 </template>

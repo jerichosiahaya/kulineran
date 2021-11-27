@@ -18,10 +18,9 @@
         </div>
       </center>
       <router-link to="/foods"
-        ><button type="button" class="btn btn-success mt-5 mb-5">
-          Pesan sekarang
-        </button></router-link
-      >
+        ><button type="button" class="btn btn-outline-success mt-5 mb-5">
+          Lihat semua <b-icon icon="arrow-right"></b-icon></button
+      ></router-link>
     </div>
   </div>
 </template>
