@@ -74,7 +74,7 @@ export default {
         .catch((error) => console.log(error));
     },
   },
-  mounted() {
+  mounted() { 
     axios
       .get("http://localhost:3000/products")
       .then((response) => this.setProduct(response.data))
